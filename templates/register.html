@@ -1,0 +1,58 @@
+<!-- Register Form -->
+<div class="limiter">
+  <div class="container-login100">
+    <div class="wrap-login100 p-t-85 p-b-20">
+  	  <form class="login100-form validate-form mb-5" method="post" action="" name="signup">
+	    <span class="login100-form-title p-b-70 no-select">
+		  REGISTER NEW ACCOUNT <hr />
+		</span>
+		<span class="login100-form-logo">
+		  <img class="no-select" draggable="false" src="../assets/images/KOTF_Logo.png" alt="Logo">
+		</span>
+		<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate="Enter new username">
+		  <input class="input100" type="text" name="usernameReg" autocomplete="off">
+		  <span class="focus-input100" data-placeholder="Username"></span>
+		</div>
+		<div class="wrap-input100 validate-input m-b-50" data-validate = "Enter your real name">
+		  <input class="input100" type="text" name="nameReg" autocomplete="off">
+		  <span class="focus-input100" data-placeholder="Full Name"></span>
+		</div>
+		<div class="wrap-input100 validate-input m-b-50" data-validate="Enter new user password">
+		  <input class="input100" type="password" name="passwordReg" autocomplete="off">
+		  <span class="focus-input100" data-placeholder="Password"></span>
+		</div>
+		<div class="wrap-input100 validate-input m-b-50" data-validate="Enter new user email">
+		  <input class="input100" type="text" name="emailReg" autocomplete="off">
+		  <span class="focus-input100" data-placeholder="Email"></span>
+		</div>
+		<div class="wrap-input100 validate-input m-b-50" data-validate="Enter user gender">
+		  <select class="input100" name="Gender">
+		  	<option value=""></option>
+		  	<option value="M">Male</option>
+		  	<option value="F">Female</option>
+		  </select>
+		  <span class="focus-input100" data-placeholder="Gender"></span>
+		</div>
+		<div class="wrap-input100 validate-input m-b-50" data-validate="Enter user race">
+		  <select class="input100" name="Race">
+		  	<option value=""></option>
+		  	<option value="1">Human</option>
+		  	<option value="2">Undead</option>
+		  	<option value="3">Elf</option>
+		  	<option value="4">Beast</option>
+		  </select>
+		  <span class="focus-input100" data-placeholder="Race"></span>
+		</div>
+		<div class="validate-input m-b-20" data-validate="Please accept tearms and conditions">
+		  <a class="tearms" href="../Terms">Terms and Conditions and Privacy Policy</a></small>
+		</div>
+		<div class="errorMsg"><?php echo $errorMsgReg; ?></div>
+		<div class="container-login100-form-btn">
+		  <input type="submit" name="signupSubmit" value="Signup" class="login100-form-btn">
+		</div>
+	  </form>
+	</div>
+  </div>
+</div>
+<!-- End Register Form -->
+
